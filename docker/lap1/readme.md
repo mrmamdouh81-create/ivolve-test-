@@ -1,3 +1,5 @@
+![](scrennshots/1.png)
+![](scrennshots/2.png)
 # Lab 2: Building and Packaging Java Applications with Maven
 
 This project demonstrates the fundamental workflow of a DevOps engineer or Java developer using **Apache Maven**. It covers the entire lifecycle from cloning the source code to running unit tests, packaging the application, and executing the final artifact.
