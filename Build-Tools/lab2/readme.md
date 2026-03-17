@@ -49,20 +49,20 @@ java -jar target/hello-ivolve-1.0-SNAPSHOT.jar
 ```
 ![](Screenshots/5.png)
 
+
+
+
 ✅ Verification
 To verify the application is working correctly:
-
 Ensure the mvn package command ends with a BUILD SUCCESS message.
-
 After running the JAR file, check the terminal output for the expected message (e.g., "Hello iVolve!").
+
+
 
 🛠 Technologies Used
 Java: The core programming language.
-
 Maven: Build automation and dependency management.
-
 JUnit: For running unit tests.
-
 GitHub: Version control and source code hosting.
 
 
