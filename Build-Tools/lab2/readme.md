@@ -29,7 +29,7 @@ Clone the source code from the official repository:
 git clone [https://github.com/Ibrahim-Adel15/build2.git](https://github.com/Ibrahim-Adel15/build2.git)
 cd build2
 ```
-![[](Screenshots/2.png)
+![](Screenshots/2.png)
 ### 3. Run Unit Tests
 Validate the code logic by running the pre-defined unit tests:
 ```bash
