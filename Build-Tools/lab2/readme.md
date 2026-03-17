@@ -21,3 +21,6 @@ If you haven't installed Maven yet, follow these commands (for Ubuntu/Linux):
 sudo apt update
 sudo apt install maven -y
 mvn -version
+```
+ ![](Screenshots/1.png) 
+ 
