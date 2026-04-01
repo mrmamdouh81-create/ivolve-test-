@@ -4,11 +4,11 @@ This project demonstrates the fundamental concept of Node Isolation in a Kuberne
 📋 Prerequisites
 
 Before you begin, ensure you have the following installed:
-ذذ
+
     Minikube: Version 1.38.x or higher.
-ذ
+
     kubectl: Version 1.35.x or higher.
-ذ
+
     Docker: As the container runtime driver.
 ```
 minikube start --nodes 2
