@@ -37,8 +37,11 @@ In this lab, I successfully implemented Node Isolation using Kubernetes Taints. 
 Cluster Infrastructure: Configured a local multi-node environment consisting of a Control Plane and a Worker Node.
 
 1 - Cluster Infrastructure: Configured a local multi-node environment consisting of a Control Plane and a Worker Node.
+
 2 - Resource Branding: Applied a Taint (node=worker:NoSchedule) which acts as a "repellant" for pods.
+
 3 - Scheduling Logic: By using the NoSchedule effect, I ensured that the Kubernetes Scheduler will bypass this node for any standard deployment, effectively reserving the node for specialized workloads.
+
 4 - Operational Efficiency: This technique is essential in production for isolating specific hardware (like GPUs) or dedicated nodes for critical system services.
 
 
