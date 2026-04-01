@@ -1,9 +1,15 @@
-🚀 Lab 10: Node Isolation Using Taints in Kubernetes
+Lab 10: Node Isolation Using Taints in Kubernetes
 
-This lab focuses on Node Isolation by applying Taints to specific nodes to control Pod scheduling.
+This project demonstrates the fundamental concept of Node Isolation in a Kubernetes cluster. It covers the entire workflow from provisioning a multi-node cluster to applying Taints and verifying how they control pod scheduling.
+📋 Prerequisites
 
-Step 1: Provision a 2-Node Cluster
-We need a multi-node setup to demonstrate how Taints affect different nodes.
+Before you begin, ensure you have the following installed:
+ذذ
+    Minikube: Version 1.38.x or higher.
+ذ
+    kubectl: Version 1.35.x or higher.
+ذ
+    Docker: As the container runtime driver.
 ```
 minikube start --nodes 2
 ```
