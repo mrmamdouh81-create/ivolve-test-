@@ -1,3 +1,4 @@
+
 Lab 10: Node Isolation Using Taints in Kubernetes
 
 This project demonstrates the fundamental concept of Node Isolation in a Kubernetes cluster. It covers the entire workflow from provisioning a multi-node cluster to applying Taints and verifying how they control pod scheduling.
