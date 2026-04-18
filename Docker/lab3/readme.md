@@ -57,5 +57,11 @@ Command: curl http://localhost:8080
 ```
 ![](screenshots/5.png)
 
-
+### 6. Cleanup
+Once you have finished testing, stop and remove the container :
+```
+docker stop container1
+docker rm container1
+```
+![](screenshots/6.png)
 
