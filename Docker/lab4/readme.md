@@ -7,7 +7,7 @@ This project demonstrates how to containerize a Java Spring Boot application usi
 * Java Spring Boot project source code.
 * `demo-0.0.1-SNAPSHOT.jar` file located in the `target/` directory.
 
-## Project Structure
+## 1. Project Structure
 ```
 .
 ├── dockerfile
@@ -24,3 +24,12 @@ The dockerfile contains the following instructions to build the image :
 vim dockerfile
 ```
 ![](screenshots/2.png)
+
+## 3. How to Run
+### Step 1: Build the Docker Image
+Run this command in the terminal to create the image named app2 :
+```
+docker build -t app2 .
+```
+![](screenshots/3.png)
+
