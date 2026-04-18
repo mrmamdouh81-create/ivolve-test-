@@ -1,4 +1,4 @@
-<img width="1569" height="710" alt="image" src="https://github.com/user-attachments/assets/a59709f3-f76a-4c86-a36b-034212f633a2" /># Lab 3: Containerizing a Java Spring Boot Application
+# Lab 3: Containerizing a Java Spring Boot Application
 
 This laboratory focuses on the process of containerizing a Java Spring Boot application using Docker. You will learn how to write a Dockerfile, build an image, and manage the lifecycle of a container.
 
