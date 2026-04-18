@@ -42,4 +42,12 @@ docker build -t app1 .
 ```
 ![](screenshots/3.png)
 
+### 4. Run the Container
+Start a container named container1 using the app1 image, mapping the host port 8080 to the container port 8080 :
+```
+docker run -d -p 8080:8080 --name container1 app1
+```
+![](screenshots/4.png)
+
+
 
