@@ -17,3 +17,10 @@ This project demonstrates how to containerize a Java Spring Boot application usi
     └── demo-0.0.1-SNAPSHOT.jar
 ```
 ![](screenshots/1.png)
+
+## 2. Dockerfile Configuration
+The dockerfile contains the following instructions to build the image :
+```
+vim dockerfile
+```
+![](screenshots/2.png)
