@@ -15,3 +15,5 @@ This project demonstrates how to containerize a Java Spring Boot application usi
 ├── src/
 └── target/
     └── demo-0.0.1-SNAPSHOT.jar
+```
+![](screenshots/1.png)
