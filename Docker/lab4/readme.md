@@ -40,4 +40,13 @@ docker run -d -p 8080:8080 --name container2 app2
 ```
 ![](screenshots/4.png)
 
+## 4. Test the Application
+Open your web browser or use curl to verify the application is running:
+```
+URL: http://localhost:8080
+Command: curl http://localhost:8080
+```
+![](screenshots/5.png)
+
+
 
