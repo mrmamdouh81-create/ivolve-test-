@@ -29,21 +29,7 @@ cd Docker-1
 ![](screenshots/1.png) 
 
 ### 2. Create the Dockerfile
-Create a file named Dockerfile in the root directory of the project with the following configuration:
-# Step 1: Use Maven base image with Java 17
-FROM maven:3.8.4-openjdk-17 AS build
+Create a file named Dockerfile in the root directory of the project :
+```
+vim dockerfile
 
-# Step 2: Create and set the working directory
-WORKDIR /app
-
-# Step 3: Copy the application source code into the container
-COPY . .
-
-# Step 4: Build the app using mvn package
-RUN mvn clean package -DskipTests
-
-# Step 5: Expose port 8080
-EXPOSE 8080
-
-# Step 6: Run the app using the generated jar file
-ENTRYPOINT ["java", "-jar", "target/demo-0.0.1-SNAPSHOT.jar"]
