@@ -32,4 +32,6 @@ cd Docker-1
 Create a file named Dockerfile in the root directory of the project :
 ```
 vim dockerfile
+```
+![](screenshots/2.png)
 
