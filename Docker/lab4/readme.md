@@ -33,3 +33,11 @@ docker build -t app2 .
 ```
 ![](screenshots/3.png)
 
+### Step 2: Run the Container
+Start the container named container2 and map port 8080 :
+```
+docker run -d -p 8080:8080 --name container2 app2
+```
+![](screenshots/4.png)
+
+
