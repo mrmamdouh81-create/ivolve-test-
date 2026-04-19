@@ -38,6 +38,18 @@ docker run -d -p 8081:8080 --name con2 -e APP_MODE=development -e APP_REGION=us-
 ```
 ![](screenshots/4.png)
 
+### Method II: Using an Environment File (Staging)
+1. Create a file named staging.env :
+```
+APP_MODE=staging
+APP_REGION=us-west
+```
+2. Run the container using the --env-file flag:
+```
+docker run -d -p 8082:8080 --name con3 --env-file env.txt mamdouh
+```
+![](screenshots/5.png)
+
 
 
 
