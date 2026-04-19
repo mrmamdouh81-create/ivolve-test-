@@ -17,3 +17,11 @@ cd Docker-3
 ```
 ![](screenshots/1.png)
 
+### 2. Dockerfile Configuration
+The Dockerfile is configured with a base Python image and includes default environment variables for the production environment.
+```
+vim dockerfile
+```
+![](screenshots/2.png)
+
+
