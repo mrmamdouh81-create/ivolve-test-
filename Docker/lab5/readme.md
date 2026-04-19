@@ -14,3 +14,10 @@ git clone https://github.com/Ibrahim-Adel15/Docker-1.git
 cd Docker-1
 ```
 ![](screenshots/1.png)
+
+### 2. Dockerfile Configuration
+Create a Dockerfile in the root directory with the following multi-stage setup:
+```
+vim dockerfile
+```
+![](screenshots/2.png)
