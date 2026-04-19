@@ -21,3 +21,10 @@ Create a Dockerfile in the root directory with the following multi-stage setup:
 vim dockerfile
 ```
 ![](screenshots/2.png)
+
+### 3. Build the Image
+Build the image and name it app3. Pay attention to the significantly smaller image size compared to a single-stage build.
+```
+docker build -t app3 .
+```
+![](screenshots/3.png)
