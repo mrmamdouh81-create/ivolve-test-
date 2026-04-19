@@ -35,3 +35,11 @@ Launch a container named container3 from the newly created image:
 docker run -d -p 8080:8080 --name container3 app3
 ```
 ![](screenshots/4.png)
+
+### 5. Verification
+Test the application by accessing it through your browser or using a terminal command:
+```
+curl http://localhost:8080
+```
+![](screenshots/5.png)
+
