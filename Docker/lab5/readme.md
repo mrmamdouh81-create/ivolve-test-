@@ -28,3 +28,10 @@ Build the image and name it app3. Pay attention to the significantly smaller ima
 docker build -t app3 .
 ```
 ![](screenshots/3.png)
+
+### 4. Run the Container
+Launch a container named container3 from the newly created image:
+```
+docker run -d -p 8080:8080 --name container3 app3
+```
+![](screenshots/4.png)
