@@ -39,7 +39,7 @@ docker run -d -p 8081:8080 --name con2 -e APP_MODE=development -e APP_REGION=us-
 ![](screenshots/4.png)
 
 ### Method II: Using an Environment File (Staging)
-1. Create a file named staging.env :
+1. Create a file named env.txt :
 ```
 APP_MODE=staging
 APP_REGION=us-west
@@ -49,6 +49,13 @@ APP_REGION=us-west
 docker run -d -p 8082:8080 --name con3 --env-file env.txt mamdouh
 ```
 ![](screenshots/5.png)
+
+### Method III: Using Dockerfile Defaults (Production)
+Run the container without any flags; it will use the values defined inside the Dockerfile:
+```
+docker run -d -p 8080:8080 --name con1 mamdouh 
+```
+![](screenshots/6.png)
 
 
 
