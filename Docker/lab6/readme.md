@@ -1,4 +1,4 @@
-# Lab 6: Managing Docker Environment Variables Across Build and Runtime
+# Lab 6 : Managing Docker Environment Variables Across Build and Runtime
 This repository demonstrates the practical application of managing environment variables within Docker containers using three different methods: Direct CLI Flags, Environment Files, and Dockerfile ENV instructions.
 
 ## 🚀 Objectives
