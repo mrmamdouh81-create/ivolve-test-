@@ -3,7 +3,9 @@ This repository demonstrates the practical application of managing environment v
 
 ## 🚀 Objectives
 Containerize a Python Flask application.
+
 Understand the precedence and scope of environment variables.
+
 Practice different ways to inject configurations into running containers.
 
 ### 🛠️ Implementation Steps
