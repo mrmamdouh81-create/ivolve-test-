@@ -43,3 +43,11 @@ curl http://localhost:8080
 ```
 ![](screenshots/5.png)
 
+### 🧹 Cleanup
+Once the testing is complete, stop and delete the container to free up resources:
+```
+docker stop container3
+docker rm container3
+```
+![](screenshots/6.png)
+
