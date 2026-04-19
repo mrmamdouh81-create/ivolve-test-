@@ -24,4 +24,11 @@ vim dockerfile
 ```
 ![](screenshots/2.png)
 
+### 3. Building the Image
+```
+docker build -t mamdouh .
+```
+![](screenshots/3.png)
+
+
 
