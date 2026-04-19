@@ -30,5 +30,14 @@ docker build -t mamdouh .
 ```
 ![](screenshots/3.png)
 
+### 4. Run the Containers (3 Different Methods)
+Method I: Using Command Line Variables (Development)
+Inject variables directly using the -e flag:
+```
+docker run -d -p 8081:8080 --name con2 -e APP_MODE=development -e APP_REGION=us-east mamdouh
+```
+![](screenshots/4.png)
+
+
 
 
