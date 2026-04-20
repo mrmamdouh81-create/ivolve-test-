@@ -31,3 +31,12 @@ docker run -d -p 8085:8080 --name molaloma -v nginx-logs:/var/log/nginx -v $(pwd
 ```
 ![](screenshots/3.png)
 
+### 🧪 Verification & Testing
+✅ Test Bind Mount (Real-time updates)
+Check the initial content:
+```
+curl http://localhost:8085
+```
+![](screenshots/4.png)
+
+
