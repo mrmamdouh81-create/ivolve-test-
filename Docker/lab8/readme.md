@@ -46,6 +46,16 @@ docker ps
 ```
 ![](screenshots/7.png)
 
+### 🧪 Step 4 : Verification (Communication Test)
+✅ Test Frontend 1 (Success)
+Verify connectivity between frontend1 and backend:
+```
+docker exec -it frontend1-container bash
+curl http://backend-container:5000
+```
+![](screenshots/8.png)
+
+
 
 
 
