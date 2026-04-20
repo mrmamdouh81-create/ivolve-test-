@@ -53,4 +53,14 @@ docker run --rm -v nginx-logs:/v busybox ls /v
 ```
 ![](screenshots/6.png)
 
+### 🧹 Cleanup
+Stop the container and remove the volume to reset the environment.
+```
+docker stop molaloma
+docker rm molaloma
+docker volume rm nginx-logs
+```
+![](screenshots/7.png)
+
+
 
