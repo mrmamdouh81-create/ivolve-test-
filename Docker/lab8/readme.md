@@ -37,5 +37,15 @@ docker network create ivolve-network
 ```
 ![](screenshots/6.png)
 
+#### 3. Run Containers
+```
+docker run -d -p 8091:5000 --name frontend1-container --network ivolve-network front-image 
+docker run -d -p 8092:5000 --name frontend2-container front-image
+docker run -d -p 8090:5000 --name backend-container --network ivolve-network back-image
+docker ps
+```
+![](screenshots/7.png)
+
+
 
 
