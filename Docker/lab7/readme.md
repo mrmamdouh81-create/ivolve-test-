@@ -24,3 +24,10 @@ echo "Hello from Bind Mount" > nginx-bind/html/index.html
 ```
 ![](screenshots/2.png)
 
+### 3. Run the Container
+Launch the Nginx container with both storage types mounted.
+```
+docker run -d -p 8085:8080 --name molaloma -v nginx-logs:/var/log/nginx -v $(pwd)/nginx-bind/html:/usr/share/nginx/html nginx
+```
+![](screenshots/3.png)
+
