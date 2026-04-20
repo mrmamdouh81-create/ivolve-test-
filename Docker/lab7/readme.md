@@ -39,4 +39,11 @@ curl http://localhost:8085
 ```
 ![](screenshots/4.png)
 
+### Update the file on your host machine and check again without restarting:
+```
+echo "Hello from k8s" > nginx-bind/html/index.html
+curl http://localhost:8085
+```
+![](screenshots/5.png)
+
 
