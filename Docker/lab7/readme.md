@@ -46,4 +46,11 @@ curl http://localhost:8085
 ```
 ![](screenshots/5.png)
 
+### ✅ Verify Persistent Logs (Volume)
+Check if logs are being stored inside the nginx_logs volume:
+```
+docker run --rm -v nginx-logs:/v busybox ls /v
+```
+![](screenshots/6.png)
+
 
