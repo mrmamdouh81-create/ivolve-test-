@@ -31,4 +31,11 @@ docker build -f Dockerfile.be -t back-image .
 
 ![](screenshots/5.png)
 
+#### 2. Create Custom Network
+```
+docker network create ivolve-network
+```
+![](screenshots/6.png)
+
+
 
