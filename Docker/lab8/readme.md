@@ -21,4 +21,14 @@ vim Dockerfile.be
 
 ![](screenshots/3.png)
 
+### 🛠️ Step 3 : Deployment & Networking
+#### 1. Build Images
+```
+docker build -f Dockerfile.fe -t front-iamge .
+docker build -f Dockerfile.be -t back-image .
+```
+![](screenshots/4.png)
+
+![](screenshots/5.png)
+
 
