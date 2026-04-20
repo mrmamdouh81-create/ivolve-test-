@@ -55,6 +55,15 @@ curl http://backend-container:5000
 ```
 ![](screenshots/8.png)
 
+### 🧹 Cleanup
+```
+docker stop backend-container frontend1-container frontend2-container
+docker rm backend-container frontend1-container frontend2-container
+docker network rm ivolve-network
+```
+![](screenshots/9.png)
+
+
 
 
 
