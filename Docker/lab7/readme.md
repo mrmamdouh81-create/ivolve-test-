@@ -15,3 +15,12 @@ Create a volume named nginx_logs to store Nginx access and error logs.
 docker volume create nginx_logs
 ```
 ![](screenshots/1.png)
+
+### 2. Prepare the Host Directory (Bind Mount)
+Create a directory structure on your local machine and add a custom HTML file.
+```
+mkdir -p nginx-bind/html
+echo "Hello from Bind Mount" > nginx-bind/html/index.html
+```
+![](screenshots/2.png)
+
