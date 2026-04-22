@@ -66,6 +66,14 @@ docker login -u ahmedmamdouh88
 ```
 ![](screenshots/8.png)
 
+#### 3. Push Image
+```
+docker push ahmedmamdouh88/node_app
+```
+![](screenshots/9.png)
+
+
+
 
 
 
