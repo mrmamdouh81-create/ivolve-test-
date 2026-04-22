@@ -53,6 +53,14 @@ ls
 ```
 ![](screenshots/6.png)
 
+### 6. Push Image to Docker Hub
+#### 1. Build Image
+```
+docker build -t ahmedmamdouh88/node_app .
+```
+![](screenshots/7.png)
+
+
 
 
 
