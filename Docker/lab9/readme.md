@@ -72,6 +72,12 @@ docker push ahmedmamdouh88/node_app
 ```
 ![](screenshots/9.png)
 
+### 📝 Summary
+In this lab, we successfully containerized a Node.js application and connected it to a MySQL database using Docker Compose. We defined a multi-service architecture where both the application and database run in isolated containers, enabling better scalability and maintainability.
+The application was configured using environment variables to establish a reliable database connection, and a persistent Docker volume was used to ensure that MySQL data is retained across container restarts.
+We verified the system by checking application endpoints, including health and readiness routes, and inspecting logs to confirm proper operation. Finally, the application image was built and prepared for distribution by pushing it to Docker Hub.
+This lab highlights essential DevOps practices such as containerization, service orchestration, configuration management, and deployment workflows.
+
 
 
 
