@@ -16,5 +16,5 @@ This lab focuses on building, testing, and running a Java application using Grad
 ```
 gradle -v
 ```
-![](screenshot/1.png)
+![](screenshots/1.png)
 
