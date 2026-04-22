@@ -25,3 +25,10 @@ vim docker-compose.yml
 ```
 ![](screenshots/2.png)
 
+### Running the Application
+```
+docker compose up -d --build
+```
+![](screenshots/3.png)
+
+
