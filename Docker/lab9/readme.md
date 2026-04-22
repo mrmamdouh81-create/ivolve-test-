@@ -31,4 +31,12 @@ docker compose up -d --build
 ```
 ![](screenshots/3.png)
 
+### Verification
+#### 1. Verify Application is Running
+```
+http://localhost:3000
+```
+![](screenshots/4.png)
+
+
 
