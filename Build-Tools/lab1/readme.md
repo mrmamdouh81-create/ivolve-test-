@@ -37,6 +37,18 @@ gradle build
 ```
 ![](screenshots/4.png)
 
+### 5. Run the Application
+```
+java -jar build/libs/ivolve-app.jar
+```
+![](screenshots/5.png)
+
+### 📝 Summary
+
+In this lab, we used Gradle to manage the build lifecycle of a Java application. We cloned the project, executed unit tests to validate functionality, and generated a deployable JAR artifact. Finally, we ran the application and verified its behavior.
+
+This lab demonstrates key concepts such as build automation, dependency management, testing, and packaging in modern Java development workflows.
+
 
 
 
