@@ -18,3 +18,10 @@ gradle -v
 ```
 ![](screenshots/1.png)
 
+### 2. Clone the Repository
+```
+git clone https://github.com/Ibrahim-Adel15/build1.git
+cd build1
+```
+![](screenshots/2.png)
+
