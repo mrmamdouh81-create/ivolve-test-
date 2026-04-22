@@ -25,3 +25,13 @@ cd build1
 ```
 ![](screenshots/2.png)
 
+### 3. Run Unit Tests
+```
+gradle test
+```
+![](screenshots/3.png)
+
+
+
+
+
