@@ -25,13 +25,13 @@ vim docker-compose.yml
 ```
 ![](screenshots/2.png)
 
-### Running the Application
+### 3. Running the Application
 ```
 docker compose up -d --build
 ```
 ![](screenshots/3.png)
 
-### Verification
+### 4. Verification
 #### 1. Verify Application is Running
 ```
 http://localhost:3000
@@ -44,6 +44,15 @@ http://localhost:3000/health
 http://localhost:3000/ready
 ```
 ![](screenshots/5.png)
+
+### 5. Check Application Logs
+```
+docker exec -it node_app sh
+cd /app/logs
+ls
+```
+![](screenshots/6.png)
+
 
 
 
