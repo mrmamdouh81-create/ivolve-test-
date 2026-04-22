@@ -38,5 +38,12 @@ http://localhost:3000
 ```
 ![](screenshots/4.png)
 
+#### 2. Health Check Endpoints
+```
+http://localhost:3000/health
+http://localhost:3000/ready
+```
+![](screenshots/5.png)
+
 
 
