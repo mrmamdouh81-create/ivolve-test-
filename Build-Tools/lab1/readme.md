@@ -31,6 +31,13 @@ gradle test
 ```
 ![](screenshots/3.png)
 
+### 4. Build the Application
+```
+gradle build
+```
+![](screenshots/4.png)
+
+
 
 
 
