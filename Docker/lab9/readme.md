@@ -60,6 +60,14 @@ docker build -t ahmedmamdouh88/node_app .
 ```
 ![](screenshots/7.png)
 
+#### 2. Login to Docker Hub
+```
+docker login -u ahmedmamdouh88
+```
+![](screenshots/8.png)
+
+
+
 
 
 
