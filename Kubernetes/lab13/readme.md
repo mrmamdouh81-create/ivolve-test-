@@ -22,3 +22,11 @@ vim pv.yaml
 ```
 ![](screenshots/2.png)
 
+### 3. Define Persistent Volume Claim (PVC)
+The PVC is the request for storage by the user/application.
+```
+vim pvc.yaml
+```
+![](screenshots/3.png)
+
+
