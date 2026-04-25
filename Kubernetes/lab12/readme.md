@@ -61,4 +61,11 @@ kubectl apply -f secret.yaml
 ```
 ![](screenshots/6.png)
 
+## 🔍 Verification
+Check resources:
+```
+kubectl get configmap -n ivolve
+kubectl get secret -n ivolve
+```
+![](screenshots/7.png)
 
