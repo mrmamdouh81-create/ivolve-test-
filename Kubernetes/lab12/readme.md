@@ -69,3 +69,12 @@ kubectl get secret -n ivolve
 ```
 ![](screenshots/7.png)
 
+## 📌 Summary
+
+In this lab, we explored how to manage application configuration and sensitive data in Kubernetes using ConfigMaps and Secrets.
+
+We created a dedicated namespace to organize resources, then defined a ConfigMap to store non-sensitive data such as the database host and user. After that, we created a Secret to securely handle sensitive information like database passwords, using Base64 encoding as required by Kubernetes.
+
+Additionally, we learned how to apply these configurations to the cluster and how applications can consume them as environment variables.
+
+This lab highlights the importance of separating configuration from code and demonstrates best practices for handling sensitive data in containerized environments.
