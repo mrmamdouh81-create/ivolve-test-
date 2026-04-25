@@ -39,3 +39,27 @@ kubectl apply -f pvc.yaml
 
 ![](screenshots/5.png)
 
+### 🔍 Verification
+To ensure the storage is correctly provisioned and bound:
+```
+kubectl get pv
+kubectl get pvc
+```
+![](screenshots/6.png)
+
+### Lab Summary : Persistent Storage Configuration
+Objective
+The goal of this lab was to implement a persistent storage solution for application logging within a Kubernetes cluster. This ensures that log data is preserved independently of the Pod lifecycle.
+
+Key Components Implemented
+Host Preparation: Configured a local directory (/mnt/app-logs) on the node's file system with full 777 permissions to act as the physical storage backend.
+
+Persistent Volume (PV): Defined a cluster-level resource named pv-pod with a 1Gi capacity, utilizing the hostPath type. It was configured with a Retain reclaim policy to ensure data safety upon claim deletion.
+
+Persistent Volume Claim (PVC): Created a storage request named pvc-pod to consume the available PV.
+
+Access Modes: Successfully matched the ReadWriteMany (RWX) access mode between the PV and PVC, allowing multiple pods to concurrently read from and write to the logging directory.
+
+Outcome
+The configuration was successfully validated using kubectl, confirming a Bound status between the PVC and PV. This setup provides a reliable, persistent path for containerized applications to store logs directly on the node's infrastructure.
+
