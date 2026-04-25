@@ -15,3 +15,10 @@ sudo chmod 777 /mnt/app-logs
 ```
 ![](screenshots/1.png)
 
+### 2. Define Persistent Volume (PV)
+The PV represents the actual storage resource in the cluster.
+```
+vim pv.yaml
+```
+![](screenshots/2.png)
+
