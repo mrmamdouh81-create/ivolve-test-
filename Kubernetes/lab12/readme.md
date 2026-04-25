@@ -26,3 +26,10 @@ vim conf.yaml
 ```
 ![](screenshots/2.png)
 
+## 🚀 Apply ConfigMap
+```
+kubectl apply -f conf.yaml
+```
+![](screenshots/3.png)
+
+
