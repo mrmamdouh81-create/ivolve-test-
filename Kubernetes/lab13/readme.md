@@ -29,4 +29,13 @@ vim pvc.yaml
 ```
 ![](screenshots/3.png)
 
+### 🚀 Deployment Commands
+Apply the configurations to your cluster:
+```
+kubectl apply -f pv.yaml
+kubectl apply -f pvc.yaml
+```
+![](screenshots/4.png)
+
+![](screenshots/5.png)
 
