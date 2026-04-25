@@ -45,4 +45,14 @@ vim secret.yaml
 ```
 ![](screenshots/4.png)
 
+## 🔄 Encode Values to Base64
+```
+echo -n "mypassword" | base64
+# Output: bXlwYXNzd29yZA==
+
+echo -n "root123" | base64
+# Output: cm9vdDEyMw==
+```
+![](screenshots/5.png)
+
 
