@@ -1,4 +1,4 @@
-# 🚀 Kubernetes Persistent Storage Lab
+# 🚀 Lab 13 : Kubernetes Persistent Storage Lab
 
 This project demonstrates how to configure persistent storage in Kubernetes using **Persistent Volumes (PV)** and **Persistent Volume Claims (PVC)** with the `hostPath` storage type.
 
