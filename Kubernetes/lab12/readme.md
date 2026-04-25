@@ -19,6 +19,7 @@ kubectl get namespace
 We store:
 
 DB_HOST → MySQL service hostname
+
 DB_USER → database user
 ```
 vim conf.yaml
