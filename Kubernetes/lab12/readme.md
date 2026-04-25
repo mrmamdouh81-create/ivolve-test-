@@ -1,4 +1,4 @@
-# 📦 Lab 12: Managing Configuration and Sensitive Data in Kubernetes
+# 📦 Lab 12 : Managing Configuration and Sensitive Data in Kubernetes
 
 ## 🎯 Objective
 In this lab, we learn how to manage application configuration and sensitive data in Kubernetes using:
@@ -15,4 +15,13 @@ kubectl get namespace
 ```
 ![](screenshots/1.png)
 
+## ⚙️ Part 2: ConfigMap (Non-Sensitive Data):
+We store:
+
+DB_HOST → MySQL service hostname
+DB_USER → database user
+```
+vim conf.yaml
+```
+![](screenshots/2.png)
 
