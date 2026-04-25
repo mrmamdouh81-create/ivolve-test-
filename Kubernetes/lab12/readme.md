@@ -32,4 +32,17 @@ kubectl apply -f conf.yaml
 ```
 ![](screenshots/3.png)
 
+## 🔐 Part 3: Secret (Sensitive Data)
+We store:
+
+DB_PASSWORD
+
+MYSQL_ROOT_PASSWORD
+
+⚠️ Kubernetes requires values to be base64 encoded
+```
+vim secret.yaml
+```
+![](screenshots/4.png)
+
 
