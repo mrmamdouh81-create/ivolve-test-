@@ -55,4 +55,10 @@ echo -n "root123" | base64
 ```
 ![](screenshots/5.png)
 
+## 🚀 Apply Secret
+```
+kubectl apply -f secret.yaml
+```
+![](screenshots/6.png)
+
 
