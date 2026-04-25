@@ -47,7 +47,7 @@ kubectl get pvc
 ```
 ![](screenshots/6.png)
 
-### Lab Summary : Persistent Storage Configuration
+### Summary 
 Objective
 The goal of this lab was to implement a persistent storage solution for application logging within a Kubernetes cluster. This ensures that log data is preserved independently of the Pod lifecycle.
 
