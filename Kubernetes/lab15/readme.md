@@ -85,3 +85,16 @@ kubectl apply -f deploy.yaml
 ```
 ![](screenshots/9.png)
 
+### 🌐 Step 6 : Expose Service (ClusterIP)
+```
+vim service.yaml
+```
+![](screenshots/10.png)
+
+### Apply :
+```
+kubectl apply -f service.yaml
+```
+![](screenshots/11.png)
+
+
