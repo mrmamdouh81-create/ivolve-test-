@@ -70,3 +70,10 @@ kubectl get pods
 kubectl get svc
 ```
 ![](screenshots/8.png)
+
+## 🔍 Step 6 : Connect to MySQL
+```
+kubectl exec -it mysql-0 -- mysql -uroot -p
+Enter password :
+```
+![](screenshots/9.png)
