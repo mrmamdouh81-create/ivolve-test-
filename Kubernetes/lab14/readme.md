@@ -40,4 +40,8 @@ kubectl apply -f pvc.yaml
 ```
 ![](screenshots/3.png)
 
-
+## 🌐 Step 3 : Create Headless Service
+```
+vim service.yaml
+```
+![](screenshots/4.png)
