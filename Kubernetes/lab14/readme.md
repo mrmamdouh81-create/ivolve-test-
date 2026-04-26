@@ -64,3 +64,9 @@ kubectl apply -f statefulset.yaml
 ```
 ![](screenshots/7.png)
 
+## ✅ Step 5 : Verify Deployment
+```
+kubectl get pods
+kubectl get svc
+```
+![](screenshots/8.png)
