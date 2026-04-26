@@ -49,4 +49,16 @@ kubectl create secret generic nodejs-secret \
 ```
 ![](screenshots/3.png)
 
+### 💾 Step 3 : Create Persistent Volume (PV)
+```
+vim pv.yaml
+```
+![](screenshots/4.png)
+
+### Apply : 
+```
+kubectl apply -f pv.yaml
+```
+![](screenshots/5.png)
+
 
