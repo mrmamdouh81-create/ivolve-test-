@@ -1,4 +1,4 @@
-# 🚀 Lab 14: StatefulSet with Headless Service (MySQL on Kubernetes)
+# 🚀 Lab 14 : StatefulSet with Headless Service (MySQL on Kubernetes)
 
 ## 📌 Overview
 This lab demonstrates how to deploy a **stateful MySQL database** using Kubernetes with the following components:
@@ -21,10 +21,17 @@ The deployment consists of:
 - **Secret** → Stores MySQL root password securely
 - **Toleration** → Allows scheduling on tainted nodes
 
-## 🔐 Step 1: Create Secret
+## 🔐 Step 1 : Create Secret
 Store MySQL root password securely:
 ```
 kubectl create secret generic mysql-secret --from-literal=root-password='12345'
 ```
 ![](screenshots/1.png)
+
+## 💾 Step 2 : Create PersistentVolumeClaim
+```
+vim pvc.yaml
+```
+![](screenshots/2.png)
+
 
