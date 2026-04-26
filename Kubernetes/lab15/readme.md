@@ -105,5 +105,10 @@ kubectl get all -n ivolve
 ```
 ![](screenshots/12.png)
 
-### 
+### 📌 Summary
+
+In this lab, we deployed a Node.js application on Kubernetes using a Deployment with multiple replicas and exposed it internally using a ClusterIP Service for load balancing. The application was configured using ConfigMap and Secret to manage environment variables securely. We also integrated Persistent Volume (PV) and PersistentVolumeClaim (PVC) to provide persistent storage for the application.
+
+Additionally, a Toleration was applied to allow scheduling on tainted nodes, and the deployment was organized within a Namespace to isolate resources and improve cluster structure. Finally, the application was tested successfully using port-forwarding.
+
 
