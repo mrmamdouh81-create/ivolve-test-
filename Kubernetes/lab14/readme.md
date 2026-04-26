@@ -77,3 +77,9 @@ kubectl exec -it mysql-0 -- mysql -uroot -p
 Enter password :
 ```
 ![](screenshots/9.png)
+
+## 📌 Summary
+
+In this lab, we deployed a stateful MySQL database on Kubernetes using a StatefulSet to ensure stable pod identity and persistent storage. A Headless Service was used to provide direct DNS access to the pods, and a PersistentVolumeClaim (PVC) ensured data durability across restarts. Sensitive credentials were managed securely using a Secret, and a Toleration was configured to allow scheduling on tainted nodes.
+
+The deployment was verified by connecting to the MySQL instance, confirming that the database is running successfully.
