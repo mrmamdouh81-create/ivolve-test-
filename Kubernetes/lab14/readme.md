@@ -45,3 +45,9 @@ kubectl apply -f pvc.yaml
 vim service.yaml
 ```
 ![](screenshots/4.png)
+
+### Apply :
+```
+kubectl apply -f service.yaml
+```
+![](screenshots/5.png)
