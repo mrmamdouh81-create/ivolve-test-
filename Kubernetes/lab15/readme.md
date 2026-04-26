@@ -29,7 +29,7 @@ The application is deployed using:
 - kubectl configured
 - Docker image pushed to Docker Hub
 
-### 🔐 Step 1: Create ConfigMap from yaml.file
+### 🔐 Step 1 : Create ConfigMap from yaml.file
 Stores non-sensitive environment variables:
 ```
 vim configmap.yaml
@@ -42,5 +42,11 @@ kubectl apply -f configmap.yaml
 ```
 ![](screenshots/2.png)
 
+### 🔐 Step 2 : Create Secret
+```
+kubectl create secret generic nodejs-secret \
+  --from-literal=DB_PASSWORD=123456
+```
+![](screenshots/3.png)
 
 
