@@ -34,4 +34,10 @@ vim pvc.yaml
 ```
 ![](screenshots/2.png)
 
+### Apply :
+```
+kubectl apply -f pvc.yaml
+```
+![](screenshots/3.png)
+
 
