@@ -51,3 +51,16 @@ vim service.yaml
 kubectl apply -f service.yaml
 ```
 ![](screenshots/5.png)
+
+## 🗄️ Step 4 : Create StatefulSet
+```
+vim statefulset.yaml
+```
+![](screenshots/6.png)
+
+### Apply :
+```
+kubectl apply -f statefulset.yaml
+```
+![](screenshots/7.png)
+
