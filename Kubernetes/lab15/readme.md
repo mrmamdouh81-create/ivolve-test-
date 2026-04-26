@@ -97,4 +97,13 @@ kubectl apply -f service.yaml
 ```
 ![](screenshots/11.png)
 
+### 🔍 Step 7 : Verify Deployment
+```
+kubectl get pods -n ivolve
+kubectl get svc -n ivolve
+kubectl get all -n ivolve
+```
+![](screenshots/12.png)
+
+### 
 
