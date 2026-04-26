@@ -73,3 +73,15 @@ kubectl apply -f pvc.yaml
 ```
 ![](screenshots/7.png)
 
+### 🚀 Step 5 : Create Deployment
+```
+vim deploy.yaml
+```
+![](screenshots/8.png)
+
+### Apply : 
+```
+kubectl apply -f deploy.yaml
+```
+![](screenshots/9.png)
+
