@@ -61,4 +61,15 @@ kubectl apply -f pv.yaml
 ```
 ![](screenshots/5.png)
 
+### 💾 Step 4 : Create PVC
+```
+vim pvc.yaml
+```
+![](screenshots/6.png)
+
+### Apply : 
+```
+kubectl apply -f pvc.yaml
+```
+![](screenshots/7.png)
 
