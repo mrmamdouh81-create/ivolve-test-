@@ -29,5 +29,16 @@ kubectl apply -f mysql.yaml
 ```
 ![](screenshots/3.png)
 
+### ⚙️ Step 3 : Create ConfigMap
+```
+vim config.yaml
+```
+![](screenshots/4.png)
+
+### Apply :
+```
+kubectl apply -f config.yaml
+```
+![](screenshots/5.png)
 
 
