@@ -65,3 +65,9 @@ kubectl apply -f deploy.yaml
 ```
 ![](screenshots/9.png)
 
+### 👀 Step 6 : Check Pods
+```
+kubectl get pods -n ivolve
+```
+![](screenahots/10.png)
+
