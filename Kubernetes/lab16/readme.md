@@ -41,4 +41,16 @@ kubectl apply -f config.yaml
 ```
 ![](screenshots/5.png)
 
+### 🔐 Step 4 : Create Secret
+```
+vim secret.yaml
+```
+![](screenshots/6.png)
+
+### Apply :
+```
+kubectl apply -f secret.yaml
+```
+![](screenshots/7.png)
+
 
