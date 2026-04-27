@@ -71,3 +71,31 @@ kubectl get pods -n ivolve
 ```
 ![](screenshots/10.png)
 
+### 🧪 Step 7 : Verify MySQL
+```
+kubectl exec -it mysql-66b9f649cc-58vlv -n ivolve -- mysql -u root -proot
+SHOW DATABASES;
+SELECT user, host FROM mysql.user;
+```
+![](screenshots/11.png)
+
+![](screenshots/12.png)
+
+### 📌 Summary 
+
+This lab demonstrates how to use an Init Container in Kubernetes to prepare a database environment before starting an application.
+
+A MySQL pod is deployed using MySQL, along with a Node.js application using Node.js. The Init Container runs before the main container and ensures the database is ready.
+
+It connects to MySQL using credentials provided via ConfigMap and Secret, then:
+
+Creates a database named ivolve
+Creates a user ivolve_user
+Grants full privileges on the database
+
+After successful execution, the Node.js container starts normally.
+
+🧠 Key Idea
+
+Init Containers ensure that all dependencies (like databases) are fully ready before the application starts, improving reliability and preventing startup failures.
+
