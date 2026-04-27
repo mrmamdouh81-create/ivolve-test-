@@ -53,4 +53,15 @@ kubectl apply -f secret.yaml
 ```
 ![](screenshots/7.png)
 
+### 🚀 Step 5 : Node.js Deployment with Init Container
+```
+vim deploy.yaml
+```
+![](screenshots/8.png)
+
+### Apply : 
+```
+kubectl apply -f deploy.yaml
+```
+![](screenshots/9.png)
 
