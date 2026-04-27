@@ -69,5 +69,5 @@ kubectl apply -f deploy.yaml
 ```
 kubectl get pods -n ivolve
 ```
-![](screenahots/10.png)
+![](screenshots/10.png)
 
