@@ -25,5 +25,9 @@ vim mysql.yaml
 
 ### Apply : 
 ```
+kubectl apply -f mysql.yaml
+```
+![](screenshots/3.png)
+
 
 
