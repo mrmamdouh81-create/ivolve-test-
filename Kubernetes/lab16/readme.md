@@ -17,4 +17,13 @@ kubectl create namespace ivolve
 ```
 ![](screenshots/1.png)
 
+### 🐬 Step 2 : Deploy MySQL
+```
+vim mysql.yaml
+```
+![](screenshots/2.png)
+
+### Apply : 
+```
+
 
