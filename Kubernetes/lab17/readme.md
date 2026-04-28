@@ -38,7 +38,11 @@ kubectl apply -f deploy.yaml
 ```
 ![](screenshots/2.png)
 
-
+### 🔍 Verification 
+```
+kubectl describe pod nodejs-deployment-54cb8876d4-cx6nq
+```
+![](screenshots/3.png)
 
 
 
