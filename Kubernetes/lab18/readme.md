@@ -38,3 +38,10 @@ kubectl apply -f network.yaml
 kubectl apply -f network.yaml
 ```
 ![](screenshots/2.png)
+
+### 🔍 Verification
+```
+kubectl get networkpolicy
+```
+![](screenshots/3.png)
+
