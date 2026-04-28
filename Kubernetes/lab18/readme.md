@@ -45,3 +45,15 @@ kubectl get networkpolicy
 ```
 ![](screenshots/3.png)
 
+### Describe Policy
+```
+kubectl describe networkpolicy allow-app-to-mysql
+```
+![](screenshots/4.png)
+
+### 📌 Summary
+
+In this lab, we implemented a Kubernetes NetworkPolicy to control pod-to-pod communication and enhance cluster security. We created a policy named allow-app-to-mysql that targets MySQL pods and restricts access to only application pods.
+
+The policy allows ingress traffic only on port 3306, ensuring that no other pods in the cluster can access the MySQL service. This demonstrates how NetworkPolicies help enforce isolation and secure communication between services inside a Kubernetes cluster.
+
