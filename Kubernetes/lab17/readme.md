@@ -32,6 +32,13 @@ vim deploy.yaml
 ```
 ![](screenshots/1.png)
 
+### Apply : 
+```
+kubectl apply -f deploy.yaml
+```
+![](screenshots/2.png)
+
+
 
 
 
