@@ -44,5 +44,18 @@ kubectl describe pod nodejs-deployment-54cb8876d4-cx6nq
 ```
 ![](screenshots/3.png)
 
+### 📊 Monitor Resource Usage
+```
+kubectl top pod
+```
+![](screenshots/4.png)
+
+### 📌 Summary
+
+In this lab, we configured resource management for a Kubernetes Deployment by defining CPU and memory requests and limits. This ensures that each pod gets the minimum resources it needs while preventing it from consuming excessive resources.
+
+We applied the configuration using kubectl, verified the settings with kubectl describe pod, and monitored real-time usage using kubectl top pod after enabling the metrics server.
+
+This lab highlights the importance of proper resource allocation in Kubernetes to achieve better performance, stability, and efficient cluster utilization.
 
 
