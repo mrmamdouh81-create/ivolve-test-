@@ -64,4 +64,21 @@ kubectl apply -f rolebinding.yaml
 ```
 ![](screenshots/7.png)
 
+### 🧪 Validation
+
+#### ✅ Check allowed actions
+```
+kubectl auth can-i list pods \
+--as=system:serviceaccount:ivolve:jenkins-sa \
+-n ivolve
+```
+![](screenshots/8.png)
+
+#### ❌ Check restricted actions
+```
+kubectl auth can-i delete pods \ --as=system:serviceaccount:ivolve:jenkins-sa \ -n ivolve
+```
+![](screenshots/9.png)
+
+
 
