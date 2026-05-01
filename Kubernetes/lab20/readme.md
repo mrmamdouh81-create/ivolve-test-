@@ -45,3 +45,16 @@ kubectl create token jenkins-sa -n ivolve
 vim role.yaml
 ```
 ![](screenshots/4.png)
+
+### Apply :
+```
+kubectl apply -f role.yaml
+```
+![](screenshots/5.png)
+
+### ✅ 5. Create RoleBinding
+```
+vim rolebending.yaml
+```
+![](screenshots/6.png)
+
