@@ -40,3 +40,8 @@ kubectl create token jenkins-sa -n ivolve
 ```
 ![](screenshots/3.png)
 
+### ✅ 4. Create Role (Read-Only Access)
+```
+vim role.yaml
+```
+![](screenshots/4.png)
