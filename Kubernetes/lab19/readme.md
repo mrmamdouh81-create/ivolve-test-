@@ -42,4 +42,31 @@ kubectl get pods -n monitoring -o wide
 ```
 ![](screenshots/4.png)
 
+### ✅ 4. Access Metrics
+
+#### 🔹 Inside the Pod
+```
+kubectl exec -it -n monitoring node-exporter-w278l -- sh
+wget -qO- http://localhost:9100/metrics
+```
+![](screenshots/5.png)
+
+### ## 📌 Summary
+
+In this lab, you successfully deployed a **DaemonSet** to run the **node-exporter** on every node in the Kubernetes cluster. This demonstrated how DaemonSets ensure consistent Pod placement across all nodes, making them ideal for cluster-wide services like monitoring and logging.
+
+You verified that:
+
+* The DaemonSet created one Pod per node
+* Each Pod was running successfully
+* The metrics endpoint was accessible via multiple methods (port-forward, in-pod access, and NodePort)
+
+By completing this lab, you now understand how to:
+
+* Use DaemonSets for node-level workloads
+* Expose and validate service metrics
+* Troubleshoot connectivity issues in Kubernetes
+
+This setup serves as a foundational step toward integrating full monitoring solutions such as Prometheus and Grafana.
+
 
