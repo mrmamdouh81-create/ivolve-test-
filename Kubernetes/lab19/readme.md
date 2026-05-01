@@ -23,3 +23,9 @@ Security tools
 kubectl create namespace monitoring
 ```
 ![](screenshots/1.png)
+
+### ✅ 2. Create DaemonSet
+```
+vim node-exporter.yaml
+```
+![](screenshots/2.png)
