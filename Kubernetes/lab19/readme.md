@@ -51,7 +51,7 @@ wget -qO- http://localhost:9100/metrics
 ```
 ![](screenshots/5.png)
 
-### ## 📌 Summary
+### 📌 Summary
 
 In this lab, you successfully deployed a **DaemonSet** to run the **node-exporter** on every node in the Kubernetes cluster. This demonstrated how DaemonSets ensure consistent Pod placement across all nodes, making them ideal for cluster-wide services like monitoring and logging.
 
