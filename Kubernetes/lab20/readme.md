@@ -58,3 +58,10 @@ vim rolebending.yaml
 ```
 ![](screenshots/6.png)
 
+### Apply :
+```
+kubectl apply -f rolebinding.yaml
+```
+![](screenshots/7.png)
+
+
