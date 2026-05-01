@@ -36,3 +36,10 @@ kubectl apply -f node-exporter.yaml
 ```
 ![](screenshots/3.png)
 
+### ✅ 3. Verify Deployment
+```
+kubectl get pods -n monitoring -o wide
+```
+![](screenshots/4.png)
+
+
