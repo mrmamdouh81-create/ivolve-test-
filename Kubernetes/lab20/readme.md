@@ -80,5 +80,10 @@ kubectl auth can-i delete pods \ --as=system:serviceaccount:ivolve:jenkins-sa \ 
 ```
 ![](screenshots/9.png)
 
-
-
+### 🧾 Summary
+In this lab, we implemented Kubernetes RBAC (Role-Based Access Control) to control access to cluster resources in a secure and restricted way.
+We started by creating a dedicated namespace ivolve to isolate the resources. Then we created a ServiceAccount called jenkins-sa which acts as an identity inside the cluster.
+After that, we generated a token for the ServiceAccount to be used for authentication. Next, we defined a Role named pod-reader that gives read-only permissions (get, list) on pods within the ivolve namespace.
+Then we created a RoleBinding to connect the ServiceAccount with the Role, allowing jenkins-sa to use those permissions.
+Finally, we validated the setup using kubectl auth can-i commands, where the ServiceAccount was able to list pods but was correctly denied from deleting them, confirming that RBAC is working as expected.
+This lab demonstrates how Kubernetes RBAC helps enforce least privilege access, improve cluster security, and control what users or applications can do inside specific namespaces.
