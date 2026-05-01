@@ -34,3 +34,9 @@ kubectl get sa -n ivolve
 ```
 ![](screenshots/2.png)
 
+### ✅ 3. Generate ServiceAccount Token
+```
+kubectl create token jenkins-sa -n ivolve
+```
+![](screenshots/3.png)
+
