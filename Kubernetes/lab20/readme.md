@@ -27,3 +27,10 @@ kubectl create namespace ivolve
 ```
 ![](screenshots/1.png)
 
+### ✅ 2. Create ServiceAccount
+```
+kubectl create serviceaccount jenkins-sa -n ivolve
+kubectl get sa -n ivolve
+```
+![](screenshots/2.png)
+
