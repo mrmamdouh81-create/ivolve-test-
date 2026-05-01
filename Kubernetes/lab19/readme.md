@@ -29,3 +29,10 @@ kubectl create namespace monitoring
 vim node-exporter.yaml
 ```
 ![](screenshots/2.png)
+
+#### Apply :
+```
+kubectl apply -f node-exporter.yaml
+```
+![](screenshots/3.png)
+
